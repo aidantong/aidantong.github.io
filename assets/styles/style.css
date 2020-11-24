@@ -1,8 +1,17 @@
 body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    margin: 0px;
+    /* overflow: hidden; */
+}
+
+#root {
+    position: relative;
     width: 100vw;
     height: 100vh;
-    margin: 0px;
+    max-width: 100%;
     overflow: hidden;
+    /* max-height: 100%; */
 }
 
 #firstname, #lastname {
@@ -15,22 +24,16 @@ body {
     margin: 0px;
 }
 
-#root {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
 #firstname {
     position: absolute;
-    left: 20px;
+    left: -30px;
     top: 200px;
 }
 
 #lastname {
     position: absolute;
     top: 350px;
-    right: -80px;
+    right: -30px;
 }
 
 #swe {
@@ -40,7 +43,7 @@ body {
     color: black;
     position: absolute;
     top: 544px;
-    left: 65px;
+    left: 15px;
     margin: 0;
     /* letter-spacing: 3px; */
 }
@@ -52,7 +55,7 @@ body {
     font-size: 40px;
     position: absolute;
     top: 657px;
-    right: 148px;
+    right: 198px;
     margin: 0px;
 }
 
