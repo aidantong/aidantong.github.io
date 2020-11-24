@@ -1,0 +1,30 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    margin: 0px;
+}
+
+#firstname, #lastname {
+    font-family: 'Roboto', sans-serif;
+    font-size: 350px;
+    color: #2F489F;
+    
+}
+
+#root {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#firstname {
+    position: absolute;
+    left: -40px;
+    top: 0px;
+}
+
+#lastname {
+    position: absolute;
+    top: 130px;
+    right: -30px;
+}
