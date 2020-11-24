@@ -61,19 +61,19 @@ body {
     font-family: 'ITC Avant Garde Gothic Std Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('ITC Avant Garde Gothic Std Bold'), url('../fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBold.woff') format('woff');
+    src: local('ITC Avant Garde Gothic Std Bold'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic Std Bold Condensed';
     font-style: normal;
     font-weight: normal;
-    src: local('ITC Avant Garde Gothic Std Bold Condensed'), url('../fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBoldCn.woff') format('woff');
+    src: local('ITC Avant Garde Gothic Std Bold Condensed'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdBoldCn.woff') format('woff');
 }
 
 @font-face {
     font-family: 'ITC Avant Garde Gothic Std Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('ITC Avant Garde Gothic Std Medium'), url('ITCAvantGardeStdMd.woff') format('woff');
+    src: local('ITC Avant Garde Gothic Std Medium'), url('/assets/fonts/itc-avant-garde-gothic-std-cufonfonts-webfont/ITCAvantGardeStdMd.woff') format('woff');
 }
