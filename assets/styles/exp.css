@@ -136,7 +136,7 @@ a:hover {
     font-size: 60px;
     margin-left: 220px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 .content {
@@ -156,18 +156,20 @@ a:hover {
     align-content: center;
     /* width: 100%; */
     padding: 30px;
-    margin: 50px;
+    margin: 0px;
+    margin-bottom: 30px;
 }
 
 .company-logo {
     width: 200px;
-    height: auto;
+    /* height: auto; */
     margin: 20px;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .job-text {
-    margin-left: 100px;
+    margin-left: 70px;
+    height: 100%;
 }
 
 .company-name {
@@ -204,6 +206,10 @@ a:hover {
     width: 220px;
     height: auto;
     margin-right: 0px;
+}
+
+#csm .job-text {
+    margin-top: 15px;
 }
 
 
