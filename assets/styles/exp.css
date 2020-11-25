@@ -2,6 +2,7 @@ body {
     /* width: 100vw; */
     /* height: 100vh; */
     margin: 0px;
+    overflow-x: hidden;
 }
 
 /* #root {
@@ -198,6 +199,12 @@ a:hover {
     font-weight: 300;
 }
 
+#csm-logo {
+    border-radius: 50px;
+    width: 220px;
+    height: auto;
+    margin-right: 0px;
+}
 
 
 
