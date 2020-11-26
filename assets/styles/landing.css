@@ -27,7 +27,7 @@ body {
 }
 
 #logo {
-    height: 55%;
+    height: 40%;
     /* width: 20%; */
     margin-left: 150px;
 }
@@ -67,6 +67,37 @@ a:hover {
     text-decoration: underline;
 }
 
+#content {
+    position: absolute;
+    top: 25%;
+    width: 100vw;
+    height: 50%;
+}
+
+#buffer {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+#left {
+    position: absolute;
+    left: -5%;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#right {
+    width: 40%;
+}
+
 #firstname, #lastname {
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'ITC Avant Garde Gothic Std Bold';
@@ -80,15 +111,14 @@ a:hover {
 }
 
 #firstname {
-    position: absolute;
-    left: -30px;
-    top: 200px;
+    width: 100%;
+    height: 70%;
+    text-align: right;
 }
 
 #lastname {
-    position: absolute;
-    top: 350px;
-    right: -30px;
+    width: 100%;
+    height: 100%;
 }
 
 #swe {
@@ -96,11 +126,10 @@ a:hover {
     font-style: normal;
     font-size: 85px;
     color: black;
-    position: absolute;
-    top: 544px;
-    left: 15px;
-    margin: 0;
-    /* letter-spacing: 3px; */
+    width: 100%;
+    height: 30%;
+    margin: 0px;
+    text-align: right;
 }
 
 #location {
