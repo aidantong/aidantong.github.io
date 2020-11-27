@@ -41,7 +41,7 @@ body {
     /* height: 40%; */
     height: 30%;
     /* width: 20%; */
-    margin-left: 150px;
+    margin-left: 220px;
 }
 
 #logo-div {
@@ -67,18 +67,28 @@ body {
     margin-right: 220px;
 }
 
-a {
+.on-page {
     font-family: 'ITC Avant Garde Gothic Std Medium';
-    /* font-size: 40px; */
     font-size: 30px;
     color: black;
     text-decoration: none;
     margin-left: 70px;
-    transition: 0.3s;
+    transition: 0.5s;
+}
+
+.off-page {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-size: 30px;
+    color: #8f9197;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.5s;
+    
 }
 
 a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 #namediv {
@@ -118,14 +128,21 @@ a:hover {
 
 #left {
     width: 55%;
+    display: flex;
+    flex-direction: column;
 }
 
 #right {
     width: 45%;
 }
 
-#about {
+.about {
     margin: 0px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
 }
 
 #photo {
