@@ -58,18 +58,28 @@ body {
     margin-right: 220px;
 }
 
-a {
+.on-page {
     font-family: 'ITC Avant Garde Gothic Std Medium';
-    /* font-size: 40px; */
     font-size: 30px;
     color: black;
     text-decoration: none;
     margin-left: 70px;
-    transition: 0.3s;
+    transition: 0.5s;
+}
+
+.off-page {
+    font-family: 'ITC Avant Garde Gothic Std Medium';
+    font-size: 30px;
+    color: #8f9197;
+    text-decoration: none;
+    margin-left: 70px;
+    transition: 0.5s;
+    
 }
 
 a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 #content {
