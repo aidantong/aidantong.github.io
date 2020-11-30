@@ -27,11 +27,25 @@
           <div class="container" id="left">
             <p class="about">Hello! My name’s Aidan and I'm a junior studying computer science at UC Berkeley. I’m originally from Hong Kong, but came to the US a couple years ago for college. I love programming and teaching, so you’ll catch me doing a bit of both at Berkeley.</p>
             <p class="about">I had the opportunity of interning at Salesforce this past summer, where I got the chance to work on some security-related projects. In general, I’m fascinated by any and all topics--my first CS course was at Berkeley, so I haven’t really had the chance to carve out a niche yet.</p>
-            <p class="about">A few personal notes: my favorite sport is soccer, although we call it “football” where I come from (also the rest of the world, but I digress). I actually spent a good number of my middle and high school years playing for the Hong Kong National Football Team, which was pretty cool. I’m also left-handed, but that only holds true for eating and writing--I throw and hold rackets with my right. Another fun fact: I have 3 brothers, and housing isn’t cheap in both HK and the Bay Area, so I’ve never had my own room (excited to graduate and hopefully get my own room).</p>
+            <p class="about">A few personal notes: my favorite sport is soccer, although we call it “football” where I come from (also the rest of the world, but I digress). I actually spent a good number of my middle and high school years playing for the Hong Kong National Football Team, which was pretty cool. I’m also left-handed, but that only holds true for eating and writing--I throw and hold rackets with my right. Another fun fact: I have 3 brothers, and housing isn’t cheap in both HK and the Bay Area, so I’ve never had my own room (excited to graduate and hopefully get my own room). I also have a dog named Tofu.</p>
             <p class="about">I think I’m a pretty cool guy, so feel free to get in touch! </p>
           </div>
           <div class="container" id="right">
-              <img id="photo" src="assets/img/powell.png">
+              <!-- <img id="photo" src="assets/img/powell.png"> -->
+              <div class="carousel">
+                <div class="arrow-left">
+                  <span class="arrow">&#x2039;</span>
+                </div>
+                <img id='carousel-img' src="assets/img/powell.png" alt="Carousel Image">
+                <div class="arrow-right">
+                  <span class="arrow">&#x203A;</span>
+                </div>
+                <div class="indicators">
+                  <span class="active"></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
           </div>
       </div>
       <div class="social">
@@ -43,5 +57,6 @@
         </a>
       </div>
     </div>
+    <script type="text/javascript" src="assets/js/carousel.js"></script>
   </body>
 </html>
