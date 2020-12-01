@@ -92,6 +92,16 @@ a:hover {
     color: black;
 }
 
+#resume {
+    text-decoration: none;
+    color: #4054A3;
+    font-weight: 500;
+}
+
+#resume:hover {
+    text-decoration: underline;
+}
+
 #namediv {
     width: 100vw;
     margin: 0px;
