@@ -250,7 +250,13 @@ CAROUSEL STUFF
     transform: translateY(-50%);
 }
 
-.carousel>img {
+#carousel-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#carousel-wrap>img {
     width: 100%;
     height: auto;
     border-radius: 4px;
