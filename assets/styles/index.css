@@ -195,13 +195,14 @@ a:hover {
     bottom: 10px;
     left: 25px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .icon {
     opacity: 25%;
     transition: 0.3s;
     margin: 0px;
+    margin-right: 10px;
 }
 
 .icon:hover {
@@ -209,11 +210,15 @@ a:hover {
 }
 
 #linkedin {
-    width: 40px;
+    /* height: 32px; */
+    height: 3.7vh;
+    margin-top: 7.5px;
 }
 
 #gmail {
-    width: 50px;
+    /* width: 45px; */
+    /* height: 50px; */
+    height: 5.6vh;
 }
 
 
