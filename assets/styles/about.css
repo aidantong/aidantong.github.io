@@ -146,8 +146,12 @@ a:hover {
 
 #right {
     width: 45%;
+    /* padding-left: 90px; */
     /* display: flex;
     justify-content: flex-end; */
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;;
 }
 
 .about {
@@ -160,10 +164,15 @@ a:hover {
     line-height: 1.6;
 }
 
-/* #photo {
-    height: 100%;
-    margin-left: 90px;
-} */
+#photo-container {
+    width: 85%;
+}
+
+#photo {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
 
 .social {
     /* position: absolute;
